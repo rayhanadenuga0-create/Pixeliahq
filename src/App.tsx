@@ -9,7 +9,10 @@ export default function App() {
       </header>
 
       <section className="home__hero">
-        <p className="home__eyebrow">Welcome</p>
+        <p className="home__eyebrow">
+          Welcome
+          <span className="home__dot" aria-hidden="true" />
+        </p>
         <h1 className="home__title">
           Pixeliahq
           <span className="home__dot" aria-hidden="true" />
